@@ -34,8 +34,10 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #000000;
     color: #a3a3a3;
+    font-size: .8rem;
 }
 
 .sidebar a:hover {
@@ -48,17 +50,23 @@ a {
 }
 
 .sidebar ul li {
-    margin-bottom: .8em;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul:first-child i,
+.sidebar .menu-footer .account i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.sidebar ul:first-child li:nth-child(2) {
+    margin-left: -1.2rem;
+    padding-left: 1rem;
+    border-left: 2px solid greenyellow;
 }
 
 .sidebar .menu-list li.logo-container {
     margin-bottom: 1.5rem;
-}
-
-.sidebar .menu-list li:nth-child(2) {
-    margin-left: -1.2rem;
-    padding-left: 1rem;
-    border-left: 2px solid greenyellow;
 }
 
 .sidebar .menu-list img {
@@ -74,11 +82,37 @@ a {
     color: black;
     background-color: #a3a3a3;
 }
+
+.sidebar .menu-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-footer .container {
+    font-size: .7rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid gray;
+}
+
+.menu-footer .account {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.menu-footer .account i {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 50%;
+}
+
+.menu-footer .account span {
+    color: white;
+}
 /* MAIN-CONTENT */
 .main .main-content {
     width: calc(100% - 200px);
     height: 100%;
-    background-color: greenyellow;
+    background-color: #141922;
 }
 /* MAIN-HEADER */
 .main .main-header {
