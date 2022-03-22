@@ -91,6 +91,10 @@ a {
     background-color: #a3a3a3;
 }
 
+.sidebar .playlist a:hover i {
+    color: white;
+}
+
 .sidebar .menu-footer {
     width: 80%;
     margin: 0 auto;
