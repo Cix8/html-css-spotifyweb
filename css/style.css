@@ -199,6 +199,11 @@ a {
     border-radius: 50px;
     color: white;
     font-weight: 600;
+    transition: all .2s linear;
+}
+
+.main .main-header a:hover {
+    transform: scale(1.1);
 }
 
 /* CARDS-CONTAINER */
@@ -249,15 +254,40 @@ a {
     margin-right: 0;
 }
 
+.card .img-container {
+    height: 12vw;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
 .card .img-container img {
     width: 100%;
-    height: 12vw;
-    margin-bottom: .3rem;
+    height: 100%;
 }
 
 .card .img-container.radius {
     border-radius: 50%;
     overflow: hidden;
+}
+
+.card .img-container .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 12vw;
+    font-size: 3rem;
+}
+
+.card .img-container .overlay i {
+    color: white;
+}
+
+.card .img-container:hover .overlay {
+    display: inline-block;
 }
 
 .card .title {
@@ -360,4 +390,18 @@ a {
 
 .footer .col.right .icons-container i {
     margin-right: .7rem;
+}
+
+.footer .col-center .icons-container,
+.footer .col.right .icons-container {
+    transition: all .1s linear;
+}
+
+.footer .col-center .icons-container i:hover,
+.footer .col.right .icons-container i:hover {
+    filter: drop-shadow(0 0 10px white);
+}
+
+.footer .col-center .icons-container i.play:hover {
+    transform: scale(1.2);
 }
