@@ -456,6 +456,10 @@ a {
         height: 15.5vw;
     }
 
+    .card .img-container .overlay {
+        line-height: 15.5vw;
+    }
+
     .footer .col.left .title {
         margin-right: 1rem;
     }
