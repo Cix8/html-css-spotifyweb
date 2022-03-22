@@ -371,7 +371,6 @@ a {
     vertical-align: middle;
     background-color: gray;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .footer .bar::before {
@@ -382,6 +381,27 @@ a {
     width: 30%;
     height: 100%;
     background-color: white;
+    border-radius: 10px;
+}
+
+.footer .bar .point {
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 28%;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer .bar:hover.bar::before {
+    background-color: greenyellow;
+}
+
+.footer .bar:hover .point {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .footer .col.right .bar {
