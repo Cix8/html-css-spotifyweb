@@ -70,6 +70,7 @@ a {
     opacity: 1;
 }
 
+/* SIDEBAR-TOP */
 .sidebar ul {
     width: 80%;
     margin: 1rem auto 0 auto;
@@ -149,6 +150,7 @@ a {
     overflow-y: auto;
 }
 
+/* SIDEBAR-BOTTOM */
 .sidebar .menu-footer {
     width: 80%;
     height: 100px;
@@ -337,6 +339,7 @@ a {
 .card .sub-title {
     font-size: .8rem;
 }
+
 /* FOOTER */
 .footer {
     display: flex;
@@ -354,6 +357,7 @@ a {
     height: 60%;
 }
 
+/* FOOTER_LEFT-COLUMN */
 .footer .col.left .img-container {
     height: 100%;
     margin-right: .8rem;
@@ -388,6 +392,7 @@ a {
     color: white;
 }
 
+/* FOOTER_CENTER-COLUMN */
 .footer .col-center {
     text-align: center;
     flex-grow: 1;
@@ -406,6 +411,7 @@ a {
     font-size: 2rem;
 }
 
+/* FOOTER-BAR { */
 .footer .bar {
     position: relative;
     display: inline-block;
@@ -452,7 +458,9 @@ a {
 .footer .bar-container span {
     font-size: .7rem;
 }
+/* } FOOTER-BAR */
 
+/* FOOTER_ROGHT-COLUMN */
 .footer .col.right .bar {
     width: 80px;
 }
@@ -465,6 +473,7 @@ a {
     margin-right: .7rem;
 }
 
+/* FOOTER_TRANSITIONS AND HOVER */
 .footer .col-center .icons-container,
 .footer .col.right .icons-container {
     transition: all .1s linear;
@@ -479,6 +488,8 @@ a {
     transform: scale(1.2);
 }
 
+
+/* MEDIA QUERIES */
 .small-icon {
     display: none;
 }
