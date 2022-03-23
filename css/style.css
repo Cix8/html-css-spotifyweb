@@ -21,6 +21,10 @@ a {
     color: inherit;
 }
 
+.general-container {
+    min-width: 520px;
+}
+
 /* UTILITY */
 .clearfix::after {
     content: "";
@@ -81,12 +85,6 @@ a {
 }
 
 .sidebar ul:first-child li:not(.logo-container) span {
-    vertical-align: middle;
-}
-
-.sidebar ul:first-child i,
-.sidebar .menu-footer .account i {
-    font-size: 1.5rem;
     vertical-align: middle;
 }
 
@@ -189,11 +187,6 @@ a {
 .menu-footer .account a img {
     width: 25px;
     height: 25px;
-}
-
-.menu-footer .account i {
-    background-color: rgba(128, 128, 128, 0.7);
-    border-radius: 50%;
 }
 
 .menu-footer .account span {
@@ -385,6 +378,11 @@ a {
     cursor: pointer;
 }
 
+.footer .col.left .icons-container li {
+    display: inline-block;
+    margin-right: .5rem;
+}
+
 .footer .col.left .icons-container i:hover {
     color: white;
 }
@@ -549,6 +547,10 @@ a {
         line-height: 28vw;
     }
 
+    .footer .col.left .icons-container li {
+        display: block;
+    }
+
     .footer .bar {
         width: 20vw;
     }
@@ -624,16 +626,16 @@ a {
     }
 
     .cards-container .card {
-        width: 35vw;
+        width: 200px;
         margin-bottom: 2rem;
     }
 
     .card .img-container {
-        height: 35vw;
+        height: 200px;
     }
 
     .card .img-container .overlay {
-        line-height: 35vw;
+        line-height: 200px;
     }
 
     .footer {
@@ -646,7 +648,11 @@ a {
 
     .footer .col.left .title {
         width: 30%;
-        margin-right: .5rem;
+        margin-right: .7rem;
+    }
+
+    .footer .col.left .icons-container li {
+        display: block;
     }
 
     .footer .bar {
