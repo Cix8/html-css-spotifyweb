@@ -411,6 +411,7 @@ a {
     display: inline-block;
     width: 30vw;
     height: 5px;
+    min-width: 80px;
     border: 1px solid gray;
     vertical-align: middle;
     background-color: gray;
