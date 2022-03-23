@@ -56,6 +56,16 @@ a {
     color: white;
 }
 
+.sidebar li:not(.logo-container) a img,
+.sidebar .menu-footer a img {
+    opacity: .5;
+}
+
+.sidebar li:not(.logo-container) a:hover img,
+.sidebar .menu-footer a:hover img {
+    opacity: 1;
+}
+
 .sidebar ul {
     width: 80%;
     margin: 1rem auto 0 auto;
@@ -63,6 +73,15 @@ a {
 
 .sidebar ul li {
     margin-bottom: 1rem;
+}
+
+.sidebar ul:first-child li:not(.logo-container) img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.sidebar ul:first-child li:not(.logo-container) span {
+    vertical-align: middle;
 }
 
 .sidebar ul:first-child i,
@@ -144,10 +163,32 @@ a {
     border-bottom: 2px solid gray;
 }
 
+.menu-footer .container a img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.menu-footer .container a span {
+    vertical-align: middle;
+}
+
 .menu-footer .account {
     font-size: 1rem;
     font-weight: 700;
-    padding: 1rem 0;
+    padding: .7rem 0;
+}
+
+.menu-footer .account a {
+    padding: 1px;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.menu-footer .account a img {
+    width: 25px;
+    height: 25px;
 }
 
 .menu-footer .account i {
@@ -157,7 +198,9 @@ a {
 
 .menu-footer .account span {
     color: white;
+    vertical-align: middle;
 }
+
 /* MAIN-CONTENT */
 .main .main-content {
     width: calc(100% - 200px);
@@ -529,6 +572,10 @@ a {
         display: none;
     }
 
+    .sidebar ul:first-child li:not(.logo-container) img {
+        width: 40px;
+    }
+
     .sidebar .menu-list img {
         width: auto;
     }
@@ -539,6 +586,11 @@ a {
 
     .sidebar .menu-footer {
         height: auto;   
+    }
+
+    .menu-footer .account a img {
+        width: 35px;
+        height: 35px;
     }
 
     .menu-footer .account span {
