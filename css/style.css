@@ -218,6 +218,7 @@ a {
 /* MAIN-HEADER */
 .main .main-header {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 200px;
     width: calc(100% - 200px);
