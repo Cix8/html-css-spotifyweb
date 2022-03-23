@@ -592,6 +592,10 @@ a {
         height: auto;   
     }
 
+    .menu-footer .container {
+        text-align: center;
+    }
+
     .menu-footer .account a img {
         width: 35px;
         height: 35px;
