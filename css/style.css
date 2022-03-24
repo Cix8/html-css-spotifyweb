@@ -287,6 +287,7 @@ a {
     width: 12vw;
     text-align: center;
     margin-right: .5rem;
+    cursor: pointer;
 }
 
 .cards-container .card:last-child {
@@ -325,7 +326,7 @@ a {
     color: white;
 }
 
-.card .img-container:hover .overlay {
+.card:hover .img-container .overlay {
     display: inline-block;
 }
 
