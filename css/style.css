@@ -379,6 +379,7 @@ a {
     color: #a3a3a3;
 }
 
+.footer .col.left .title h4:hover,
 .footer .col.left .title span:hover {
     text-decoration: underline;
     cursor: pointer;
